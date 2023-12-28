@@ -57,6 +57,7 @@ mouse.wait(button=mouse.LEFT, target_types=mouse.DOWN)
 x3, y3 = pyautogui.position()
 logging.info('Third click position: %s', (x3, y3))
 
+print('Bot is running...')
 # get active window
 win = pyautogui.getActiveWindow()
 winBox = (max(0, win.box[0]), max(0, win.box[1]), win.box[2], win.box[3])
