@@ -1,2 +1,6 @@
 *.log
 heroes/*.png
+build/
+dist
+*.spec
+*.zip
