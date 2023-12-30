@@ -14,6 +14,14 @@ def click(x, y):
     mouse.click()
     return
 
+def playFile(filename):
+    logging.info('Playing %s', filename)
+    if (not os.path.exists(filename)):
+        logging.info('No such file')
+        return
+    playsound.playsound('./' + filename)
+    return
+
 # check if needed heroes are on the screen
 def checkHeroes(winBox, images):
     logging.info('Checking for heroes')
@@ -96,6 +104,5 @@ while not terminate:
     click(x3, y3)
     logging.info('Clicked at third button')
 
-logging.info('Playing winning sound')
-playsound.playsound('alert.mp3')
+playFile('alert.mp3')
 logging.info('Terminating the program')
