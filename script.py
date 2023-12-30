@@ -4,6 +4,7 @@ import keyboard
 import time
 import os
 import logging
+import playsound
 
 def quit(event = None):
     os._exit(0)
@@ -95,4 +96,6 @@ while not terminate:
     click(x3, y3)
     logging.info('Clicked at third button')
 
+logging.info('Playing winning sound')
+playsound.playsound('alert.mp3')
 logging.info('Terminating the program')
