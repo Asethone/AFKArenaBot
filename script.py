@@ -19,7 +19,7 @@ def playFile(filename):
     if (not os.path.exists(filename)):
         logging.info('No such file')
         return
-    playsound.playsound('./' + filename)
+    playsound.playsound(filename)
     return
 
 # check if needed heroes are on the screen

@@ -1,6 +1,8 @@
 *.log
 heroes/*.png
 build/
-dist
+dist/
+bot/
 *.spec
 *.zip
+build.bat
