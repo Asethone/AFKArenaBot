@@ -1,6 +1,8 @@
 # AFKArenaBot
 Бот для автоматических круток в AFK Arena. Крутки прожимаются автоматически до тех пор, пока на экране не появится комбинация из заданных героев.
 
+Для скачивания последней версии нажмите одну из кнопок ниже.
+
 [![GitHub release (with filter)](https://img.shields.io/github/v/release/Asethone/AFKArenaBot)](https://github.com/Asethone/AFKArenaBot/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/Asethone/AFKArenaBot/total?color=lightgreen)](https://github.com/Asethone/AFKArenaBot/releases/latest)
 
